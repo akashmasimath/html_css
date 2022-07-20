@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* section A starts */
+.backg{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.02),rgba(0,0,0,0.02)), url(./slide-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.prenav{
+    width: 100%;
+    height: 0px;
+    margin: auto;
+    padding: 25px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    overflow: hidden;
+}
+.prenav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 40px;
+    position: relative;
+    color: white;
+}
+
+.navbar{
+    width: 100%;
+    height: 2px;
+    margin: auto;
+    padding: 35px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar {
+    background-color: white;
+    overflow: hidden;
+  }
+
+.logo h1 {
+    font-size: 26px;
+    padding: 0 0 0 8px;
+    margin: 11px 40px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    border-left: 8px solid #e96b56;
+}
+.logo a{
+    color: gray;
+    text-decoration: none;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase ;
+}
+
+.content
+{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100px;
+    line-height: 25px;
+    font-size: 20px;
+}
+button
+{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 0 solid #e96b56;
+    background: transparent;
+    color:black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background: #e96b56;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;  
+}
+button:hover span{
+    width: 0;
+}
+/* section A ends */
+
+
+/* section B starts */
+
+.sec2
+{
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    margin: 20px 11px;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-around;
+}
+.button1, .button2, .button3
+{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 250px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 15%);
+    border-radius: 13px;
+    color: rgba(0,0,0,0.75);
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    text-align: justify;
+    
+
+}
+.sec2 h3{
+    margin-left: 20px;
+
+}
+.sec2 p{
+    margin-left: 20px;
+}
+.button1:hover{
+    background-color: #e96b56;
+    cursor: pointer;
+} 
+
+.button2:hover{
+    background-color: #e96b56;
+    cursor: pointer;
+} 
+
+.button3:hover{
+    background-color: #e96b56;
+    cursor: pointer;
+    
+}
+
+
+/* section B ends */
+
+
+/* section C starts */
+.sec3{
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+       
+}
+
+.sec3 img{
+    width: 85%;
+    height: 80%;
+    float: left;
+}
+
+.sec3 txt{
+    width: 100%;
+    height: auto;
+    float: right;
+    margin: 50px;
+}
+/* section C ends */
+
+
+/* section D starts */
+
+.sec4
+{
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    margin: 5px 10px;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 15px;
+}
+
+.box1, .box2, .box3
+{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 250px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 15%);
+    color: rgba(0,0,0,0.75);
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.box1:hover{
+    background-color: #e96b56;
+    cursor: pointer;
+} 
+
+.box2:hover{
+    background-color: #e96b56;
+    cursor: pointer;
+} 
+
+.box3:hover{
+    background-color: #e96b56;
+    cursor: pointer;
+    
+}
+
+/* section D ends */
+
+/* section E starts */
+
+.sec5
+{
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    margin: 5px 10px;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 15px;
+}
+
+.box4, .box5, .box6
+{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 250px;
+    box-shadow: 0px 2px 12px rgb(0 0 0 / 15%);
+    color: rgba(0,0,0,0.75);
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.box4:hover{
+    background-color: #e96b56;
+    cursor: pointer;
+} 
+
+.box5:hover{
+    background-color: #e96b56;
+    cursor: pointer;
+} 
+
+.box6:hover{
+    background-color: #e96b56;
+    cursor: pointer;
+    
+}
+
+/* section E ends */
+
+
+/* section F starts */
+
+.cli{
+    text-align: center;
+    font-size: 18px;
+    display: inline;
+}
+
+.ad
+{
+    text-align: center;
+
+}
+
+.ad ul li{
+    /* list-style-type: none; */
+    display: inline-block;  
+    
+}
+
+.ad ul li img{
+    height: 45px;
+    width: 150px;
+    
+    
+}
+
+
+/* section F ends */
+
+/* section G starts */
+
+.preend{
+    width: 100%;
+    height: 100px;
+    padding: 35px 15px;
+    display: flex;
+    background-color: rgb(64, 64, 64);
+}
+.text{
+    font-size:13px ;
+    color: white;
+    margin: 11px 55px;
+}
+.box7{
+    border-radius: 25px;
+    background: white;
+    margin: 11px 80px;
+    height: 35px;
+    display: flex;
+}
+
+
+
+
+
+/* section G ends */
+
+/* section H starts */
+
+.end{
+    width: 100%;
+    height: 200px;
+    padding: 35px 15px;
+    display: flex;
+    background-color: rgb(59, 59, 59);
+    align-items: center;
+
+}
+
+.end{
+    
+    width: 100%;
+    height: 300px;
+    align-items: center;
+  
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.txt1, .txt2, .txt3, .txt4 {
+    font-size:13px ;
+    text-align: justify;
+}
+
+/* section H ends */
+
+/* section I starts */
+.copy{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 10px;
+    background-color: #404040;
+}
+
+.copy{
+    color: white;
+    font-size: 8px;
+}
+
+
+/* section I ends */
